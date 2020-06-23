@@ -1,20 +1,12 @@
 {
   "require": {
     "league/flysystem-sftp": "^1.0",
-    "guzzlehttp/guzzle": "~6.0",
     "nesbot/carbon": "^2.5",
     "zhimma/send-email": "^1.0",
-    "chuxiangqaz/redis-client": "^2.0",
-    "kitetail/zttp": "^0.5.0",
-    "hellogerard/jobby": "^3.4",
     "symfony/cache": "^4.3",
     "psr/simple-cache": "^1.0",
-    "catfan/medoo": "^1.7",
     "box/spout": "^3.0",
     "php-amqplib/php-amqplib": "^2.11",
     "mtdowling/supervisor-event": "^1.0"
-  },
-  "require-dev": {
-    "itsgoingd/clockwork": "^3.1"
   }
 }
