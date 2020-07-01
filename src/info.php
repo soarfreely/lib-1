@@ -2,3 +2,5 @@
 echo '当前时间: ' . date('Y-m-d H:i:s'), PHP_EOL;
 
 phpinfo();
+
+// // git@github.com:soarfreely/lib-1.git
