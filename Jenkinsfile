@@ -31,7 +31,7 @@ ci {
    gitlabServer = 'http://172.17.0.3:80/api/v4'
 
    // email
-   toEmail = 'soarfreely.z@qq.com'
+   toEmail = '346777749@qq.com'
 
    // debug
    debug = 'debug'
