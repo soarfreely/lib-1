@@ -1,6 +1,5 @@
 {
   "require": {
-    "league/flysystem-sftp": "^1.0",
-    "zhimma/send-email": "^1.0"
+    "ext-json": "*"
   }
 }
