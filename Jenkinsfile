@@ -8,18 +8,21 @@ idc {
    // 源码目录
    phpSrc = 'src'
 
-   // jenkins share lib仓库地址
+   // 业务代码仓库地址
    repository = 'https://github.com/soarfreely/lib-1.git'
    // repository = 'http://172.17.0.3/group-a/lib-1.git'
 
-   // jenkins2repository 凭据
+   // jenkins2repository 凭据 (业务代码仓库)
    jenkins2repositoryCredentialsId = 'local-jenkins-github'
 
-   // jenkins2server凭据
+   // jenkins2server凭据 (生产服务器)
    jenkins2serverCredentialsId = 'local-php'
 
    // 生产服务器ip
    targetIp = '172.17.0.4'
+
+   // toEmail
+   toEmail = 'soarfreely.z@qq.com'
 
    // 工程名称
    projectName = 'lib-1'
@@ -30,9 +33,5 @@ idc {
    // gitlab　api
    gitlabServer = 'http://172.17.0.3:80/api/v4'
 
-   // email
-   toEmail = 'soarfreely.z@qq.com'
-
-   // debug
    debug = 'debug'
 }
