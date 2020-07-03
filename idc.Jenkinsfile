@@ -28,7 +28,7 @@ idc {
    targetIp = '172.17.0.4'
 
    // toEmail
-   toEmail = 'soarfreely.z@qq.com'
+   toEmail = 'soarfreely.z@qq.com,z.gavin@qq.com'
 
    // 工程名称
    projectName = 'lib-1'
