@@ -1,7 +1,7 @@
 #!groovy
 @Library('jenkinslib@master') _
 
-ci {
+idc {
    // 是否执行composer
    runComposer = 'true'
 
