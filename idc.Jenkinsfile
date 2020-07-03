@@ -5,6 +5,12 @@ idc {
    // 是否执行composer
    runComposer = 'true'
 
+   // nginx www 目录
+   www = '/root/www'
+
+   // 域名(代码目录)
+   domain = 'localhost'
+
    // 源码目录
    phpSrc = 'src'
 
