@@ -25,13 +25,13 @@ idc {
    jenkins2serverCredentialsId = 'local-php'
 
    // 生产服务器ip
-   targetIp = '172.17.0.4'
+   targetIp = '172.17.0.5'
 
    // toEmail
    toEmail = 'soarfreely.z@qq.com,z.gavin@qq.com'
 
    // 工程名称
-   projectName = 'lib-1'
+   projectName = 'Gavin-project'
 
    // gitlab api 凭据
    gitlabApiCredentialsId = 'local-gitlab-api'
